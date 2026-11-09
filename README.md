@@ -117,7 +117,12 @@ echo "ami avro diye borrno likhi" | ./harness "$PWD/bn-avro-phonetic.mim" bn avr
 
 ## Credits and licensing
 
-* **Avro Phonetic** was created by Mehdi Hasan Khan (OmicronLab). See [Avro-Keyboard](https://github.com/mugli/Avro-Keyboard).
-* The rule data comes from [OpenBangla Keyboard](https://github.com/OpenBangla/OpenBangla-Keyboard)'s `riti` engine.
+This project is licensed under the **GNU GPL v3** (see `LICENSE`).
+
+Where the rule data comes from, and why that matters:
+
+* **Avro Phonetic** was created by Mehdi Hasan (OmicronLab). See [Avro-Keyboard](https://github.com/mugli/Avro-Keyboard).
+* `avrophonetic.json` is copied from `src/engine/riti/data/` in [OpenBangla Keyboard](https://github.com/OpenBangla/OpenBangla-Keyboard). OpenBangla Keyboard as a whole is GPLv3, but the `riti` engine directory (which holds this file) carries its own **Mozilla Public License 2.0**. The file is therefore MPL-2.0 covered, and the generated `.mim` is derived from it. 
 * The approach (a Bangla layout with complex context rules written as a pure m17n file, with states and an explicit Backspace binding) follows [khipro-m17n](https://github.com/rank-coder/khipro-m17n).
-* **Licence .** since `avrophonetic.json` is copied from OpenBangla's repository and the generated `.mim` is derived from it. It's licensed under GPLV3.
+
+The generated `.mim` carries a header with this copyright, licence and provenance information.
