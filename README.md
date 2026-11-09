@@ -120,4 +120,4 @@ echo "ami avro diye borrno likhi" | ./harness "$PWD/bn-avro-phonetic.mim" bn avr
 * **Avro Phonetic** was created by Mehdi Hasan Khan (OmicronLab). See [Avro-Keyboard](https://github.com/mugli/Avro-Keyboard).
 * The rule data comes from [OpenBangla Keyboard](https://github.com/OpenBangla/OpenBangla-Keyboard)'s `riti` engine.
 * The approach (a Bangla layout with complex context rules written as a pure m17n file, with states and an explicit Backspace binding) follows [khipro-m17n](https://github.com/rank-coder/khipro-m17n).
-* **Licence .** since `avrophonetic.json` is copied from OpenBangla's repository and the generated `.mim` is derived from it. It's licenced under GPLV3.
+* **Licence .** since `avrophonetic.json` is copied from OpenBangla's repository and the generated `.mim` is derived from it. It's licensed under GPLV3.
