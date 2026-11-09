@@ -3,7 +3,7 @@
 A port of the **Avro Phonetic** Bangla layout to a plain [m17n](https://www.nongnu.org/m17n/) input method file (`bn-avro-phonetic.mim`). It is a fixed layout: every character can be typed from keys alone, with **no dictionary, suggestions or autocorrect**.
 
 ```
-ami avro diye borrno likhi   ->   আমি আভ্র দিয়ে বর্ন লিখি
+ami ovro diye borrno likhi   ->   আমি অভ্র দিয়ে বর্ন লিখি
 ```
 
 Because it is an ordinary `.mim` file, it should work with any front end built on m17n-lib (ibus-m17n, fcitx5-m17n, ibus-typing-booster) without Qt or a separate engine.
